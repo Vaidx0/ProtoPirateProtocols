@@ -2,21 +2,6 @@
 
 #define TAG "SubGhzProtocolHonda"
 
-// Honda Key Fob Protocol (2012+ models)
-// Based on:
-// - rtl_433 hondacar.c decoder
-// - CVE-2022-27254 (Rolling code resync vulnerability)
-// - github.com/nonamecoder/FlipperZeroHondaFirmware
-// - Rootshell Security research (2024)
-//
-// Frequency: 433.92 MHz (most common)
-// Modulation: OOK/ASK
-// Encoding: Manchester
-// Vulnerability: Counter resynchronization allows replay attacks
-//
-// NOTE: This decoder identifies Honda signals but does NOT
-// exploit the vulnerability (ethical reasons)
-
 static const SubGhzBlockConst subghz_protocol_honda_const = {
     .te_short = 432,  // Short pulse ~432µs
     .te_long = 864,   // Long pulse ~864µs (2x short)
