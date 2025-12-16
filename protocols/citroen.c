@@ -2,19 +2,6 @@
 
 #define TAG "SubGhzProtocolCitroen"
 
-// Citroën Key Fob Protocol
-// Based on: FZ Private CFW list (17-October-2025)
-// Models: C2, C3, C4, C5, C6, C8, Berlingo, DS4, Picasso, etc. (2005-2018)
-//
-// PSA Group (Peugeot-Citroën) uses:
-// - Custom FM presets (different from standard FM476)
-// - Similar to Peugeot but with PSA-specific encoding
-// - Frequency: 433.92 MHz (EU), 315 MHz (US)
-// - Modulation: FM with custom preset
-// - Protocol: Similar to Keeloq but PSA variant
-//
-// Note: Shares protocol base with Peugeot (PSA Group)
-
 static const SubGhzBlockConst subghz_protocol_citroen_const = {
     .te_short = 370,  // Short pulse duration
     .te_long = 772,   // Long pulse duration
