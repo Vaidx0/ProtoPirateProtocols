@@ -1,11 +1,5 @@
 # Better Protocols For ProtoPirate APP
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=900&color=00F7FF&center=true&vCenter=true&width=520&lines=More+Protocols+for+ProtoPirate;RF+%7C+Signals+%7C+Research;By+Amau_Zero" />
-</p>
-
----
-
 ## ℹ️ Info
 
 * App: **ProtoPirate**
