@@ -2,9 +2,6 @@
 
 #define TAG "SubGhzProtocolPeugeot"
 
-// Protocol specifications based on Microchip HCS200/HCS300 Keeloq
-// Used by Peugeot, Citroen, and other manufacturers
-// Source: rtl_433 hcs200.c decoder
 static const SubGhzBlockConst subghz_protocol_peugeot_const = {
     .te_short = 370,  // Short pulse duration
     .te_long = 772,   // Long pulse duration (~2x short)
